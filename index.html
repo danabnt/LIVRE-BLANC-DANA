@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok & l'industrie musicale — Dana Binet</title>
+  <meta name="description" content="Livre blanc de Dana Binet — TikTok, influence et stratégies de promotion musicale.">
+  <style>
+    :root {
+      --bg: #0b0b0d;
+      --card: #151519;
+      --text: #f5f5f5;
+      --muted: #a7a7b0;
+      --line: #292930;
+      --accent: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 80% 15%, #25252d 0, transparent 28%),
+        radial-gradient(circle at 15% 80%, #19191f 0, transparent 30%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    .wrap { width: min(1060px, calc(100% - 40px)); margin: auto; }
+    header { padding: 28px 0; border-bottom: 1px solid var(--line); }
+    .brand { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    main { padding: 80px 0 70px; }
+    .eyebrow {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .13em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: .98;
+      letter-spacing: -.055em;
+    }
+    .subtitle {
+      max-width: 720px;
+      color: #d2d2d8;
+      font-size: 20px;
+      margin: 28px 0 34px;
+    }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: #0b0b0d;
+      text-decoration: none;
+      font-weight: 800;
+      padding: 15px 23px;
+      border-radius: 999px;
+      transition: transform .15s ease, opacity .15s ease;
+    }
+    .button:hover { transform: translateY(-2px); opacity: .9; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 80px;
+    }
+    .card {
+      background: rgba(21,21,25,.82);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 26px;
+    }
+    .card h2 { margin: 0 0 10px; font-size: 18px; }
+    .card p { margin: 0; color: var(--muted); }
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      margin-top: 90px;
+      padding-top: 45px;
+      border-top: 1px solid var(--line);
+    }
+    .about h2 { font-size: 34px; line-height: 1.05; margin-top: 0; }
+    .about p { color: var(--muted); }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 25px 0 35px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 720px) {
+      main { padding-top: 55px; }
+      .grid, .about { grid-template-columns: 1fr; }
+      .grid { margin-top: 55px; }
+      .about { margin-top: 60px; gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">Dana Binet · M2 Entertainment</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="eyebrow">Livre blanc · 2026</div>
+      <h1>TikTok, un outil stratégique incontournable au service de la promotion musicale.</h1>
+      <p class="subtitle">
+        Une analyse de l'évolution de la découverte musicale, du rôle des créateurs,
+        des mécaniques de viralité et de l'utilisation de TikTok dans le lancement d'artistes.
+      </p>
+      <a class="button" href="livre-blanc-dana-binet.pdf" download>
+        Télécharger le livre blanc →
+      </a>
+
+      <section class="grid">
+        <article class="card">
+          <h2>01 — Découverte musicale</h2>
+          <p>Comment TikTok a transformé les mécanismes de découverte et de promotion des morceaux.</p>
+        </article>
+        <article class="card">
+          <h2>02 — Influence & trends</h2>
+          <p>Le rôle des créateurs et les trois mécaniques clés : hook, répétition et concept d'usage.</p>
+        </article>
+        <article class="card">
+          <h2>03 — Lancement d'artiste</h2>
+          <p>Des recommandations stratégiques pour construire une audience et amplifier une sortie.</p>
+        </article>
+      </section>
+
+      <section class="about">
+        <div>
+          <div class="eyebrow">À propos</div>
+          <h2>Un travail à la croisée de l'influence, de la musique et du digital.</h2>
+        </div>
+        <div>
+          <p>
+            Je m'appelle Dana Binet. Je travaille dans l'univers de l'influence en tant que
+            talent manager et cheffe de projet, et j'accompagne également des artistes émergents
+            dans le développement de leur carrière.
+          </p>
+          <p>
+            Ce livre blanc rassemble plusieurs années d'observation, d'expériences de terrain
+            et de réflexion autour des évolutions de l'influence et de l'entertainment.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Dana Binet · M2 Entertainment</div>
+  </footer>
+</body>
+</html>
